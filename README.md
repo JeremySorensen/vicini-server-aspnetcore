@@ -12,6 +12,10 @@ To Build and run:
    * Just search C# in the extension manager and make sure it is from Microsoft, powered by omnisharp
 4. Clone this repo
 5. run `code vicini-server-aspnetcore` to open the folder in Visual Studio Code
-6. Hit `F5` to run the server.
-7. Follow the directions to setup and run [vicini-web](https://github.com/gregoryjjb/vicini-web)
+6. Open Program.cs
+7. Wait for some notifications from Visual Studio Code
+8. Choose "Yes" for `Required assets to build and debug are missing from 'vicini-web-server-aspnetcore'. Add them?`
+9. Choose "Restore" for `There are unresolved dependencies from 'vicini-server-aspnetcore.csproj'. Please exectute the restore command to continue.`
+10. Hit `F5` to run the server.
+11. Follow the directions to setup and run [vicini-web](https://github.com/gregoryjjb/vicini-web)
 8. Be amazed.
