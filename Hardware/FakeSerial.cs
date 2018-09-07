@@ -200,6 +200,7 @@ namespace ViciniServer.Comm
             Func<string, string> fun;
             if (!Handlers.TryGetValue(head, out fun)) {
                 buffer = "Error [bad_command]: Command not found\n";
+                return false;
             }
             buffer = fun(tail) + '\n';
             return true;
